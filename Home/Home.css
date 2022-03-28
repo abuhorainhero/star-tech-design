@@ -1,0 +1,23 @@
+*{
+    display:flexbox;
+}
+#navdesign{
+ display: flex;
+ align-items: center;
+}
+#button1{
+    size-adjust: 100px 50px;
+    border-radius: 5px;
+    /* background-image: linear-gradient(rgb(38, 0, 255), rgb(119, 126, 228)); */
+    background-color: rgb(29, 13, 243);
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    from {background-color: rgb(20, 161, 243);}
+    to {background-color: rgb(10, 64, 126);}
+    
+  }
+#carouselExampleCaptions{
+    size-adjust: 960px 490px;
+}
